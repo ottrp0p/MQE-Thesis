@@ -6,6 +6,11 @@ from langdetect import detect
 from nltk.stem.porter import *
 from nltk.corpus import words
 
+
+# this file attempts to turn latex physics files into clean text format 
+# requiring the removal of many latex code elements ($$, {}, /commands) from the latex text to produce 
+# a usable text file for NLP
+
 ### Hashing an english dictionary for laterchecks
 engdict = dict.fromkeys(words.words(), None)
 def is_english(word):
