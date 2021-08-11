@@ -1,6 +1,6 @@
 README
 
-This project was originally written in 2016. In rather rushed, poorly written Python in retrospect. 
+This project was originally written in 2016. 
 
 ### File Descriptions ###
 
